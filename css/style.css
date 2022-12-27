@@ -205,6 +205,16 @@ header.sticky{
     gap: 1.5rem;
     margin-top: 4rem;
 }
+.services-content img{
+    height: 150px;
+    
+}
+
+.services-content img:hover{
+    border-style: double;
+    color: #eb4a4a;
+    transition: all .20s ease;
+}
 
 .box{
     background:#12141c ;
@@ -233,19 +243,112 @@ header.sticky{
     color: var(--primary-color);
 }
 
-.portfolio-content{
+.portfolio-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     text-align: center;
     gap: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 4rem; 
+}
+
+.portfolio-content h6{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.portfolio-content h3{
+    color: var(--secondary-color);
 }
 
 .portfolio-content img{
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
+    
 }
 .portfolio-content img:hover{
     border: 1px solid var(--primary-color);
 }
+
+/*contact css*/
+
+.contact{
+    display:grid;
+    grid-template-columns:repeat(1 2fr) ;
+    
+}
+
+.contact h2{
+    font-size: var(--h2-font);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact h4{
+    font-size: var(--h4-font);
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.contact p{
+    color: var(--secondary-color);
+    font-size: var(--p-font);
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+
+.contact-text{
+    display: block;
+    position:relative;
+}
+
+.contact-data a{
+    display:inline-block;
+    border: 0.2rem solid var(--primary-color);
+    justify-content: space-between;
+    color: var(--text-color);
+}
+.contact-data a:hover{
+    border:2px solid #eb4a4a;
+    border-radius: 20% 0%;
+    background-color:var(--primary-color);
+    color:var(--text-color);
+}
+
+.contact-icons a{
+    display:inline-table;
+    padding: 0.5rem;
+    justify-content: space-between;
+    transition: all .5s ease-in;
+}
+
+.contact-icons img{
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+}
+
+.contact-form{
+    display:block;
+    justify-content:space-between;
+}
+
+.contact-form input{
+    display:block;
+    position:static;
+    justify-content:space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
