@@ -272,8 +272,8 @@ header.sticky{
 /*contact css*/
 
 .contact{
-    display:grid;
-    grid-template-columns:repeat(1 2fr) ;
+    display:flex;
+    justify-content: space-between;
     
 }
 
@@ -328,6 +328,7 @@ header.sticky{
 
 .contact-form{
     display:block;
+    position:static;
     justify-content:space-between;
 }
 
@@ -335,9 +336,16 @@ header.sticky{
     display:block;
     position:static;
     justify-content:space-between;
-
+    padding:0.5rem;
+    margin-top: 0.3rem;
+}
+.contact-form textarea{
+    margin-top: 0.3rem;
 }
 
+.contact-form input:hover{
+    border-top-right-radius: 2px solid red;
+}
 
 
 
