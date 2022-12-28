@@ -347,6 +347,13 @@ header.sticky{
     border-top-right-radius: 2px solid red;
 }
 
+.last-text{
+    color: crimson;
+    display: block;
+    padding: 5rem;
+    position:sticky;
+    margin-bottom: 0.1rem;
+}
 
 
 
