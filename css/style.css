@@ -22,7 +22,14 @@
 }
 
 body{
-    background: var(--bg-color);
+    background: linear-gradient(
+                    to right,
+                    black,
+                    red,
+                    purple,
+                    red
+
+                                );
     color: var(--text-color);
 }
 
@@ -74,10 +81,10 @@ section{
     align-items: center;
     justify-content: flex-start;
     background-image: url("../img/background.jpg");
-    margin-top: 10rem;    
+    margin-top: 10px;    
     background-size: auto;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:bottom;
     
 }
 
@@ -351,7 +358,7 @@ header.sticky{
     color: crimson;
     display: block;
     padding: 5rem;
-    position:sticky;
+    position:absolute;
     margin-bottom: 0.1rem;
 }
 
